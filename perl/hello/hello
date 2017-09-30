@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+
+print "What is your name?\n";
+
+my $name = <STDIN>;
+
+print "Hi, $name";

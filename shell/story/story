@@ -1,0 +1,15 @@
+#!/bin/sh
+
+tell()
+{
+  echo $1
+}
+
+handler()
+{
+}
+
+welcome()
+{
+  echo Welcome
+}
