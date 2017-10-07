@@ -7,9 +7,27 @@ tell()
 
 handler()
 {
+  welcome
 }
 
 welcome()
 {
-  echo Welcome
+  tell "Welcome!"
+  handler()
+  {
+    name
+  }
 }
+
+name()
+{
+  tell "What is your name?"
+  read name
+  tell "Hi, $name"
+}
+
+while true 
+do
+  read raw
+  handler
+done
